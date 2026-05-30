@@ -1,0 +1,221 @@
+# depslib dependency file v1.0
+1761177642 source:d:\descargas\tptopicosuv\tptopicos\archivos.c
+	"archivos.h"
+
+1761013431 d:\descargas\tptopicosuv\tptopicos\archivos.h
+	<stdio.h>
+	<stdlib.h>
+	"estructura.h"
+	"indice.h"
+	"validaciones.h"
+
+1761066709 d:\descargas\tptopicosuv\tptopicos\estructura.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1761177967 d:\descargas\tptopicosuv\tptopicos\indice.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructura.h"
+
+1761182369 d:\descargas\tptopicosuv\tptopicos\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<dirent.h>
+	"estructura.h"
+	"indice.h"
+
+1761178446 source:d:\descargas\tptopicosuv\tptopicos\indice.c
+	"indice.h"
+	"estructura.h"
+	"validaciones.h"
+
+1761177727 source:d:\descargas\tptopicosuv\tptopicos\main.c
+	"menu.h"
+	"indice.h"
+	"estructura.h"
+	"archivos.h"
+
+1761178096 d:\descargas\tptopicosuv\tptopicos\menu.h
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+	"estructura.h"
+	"indice.h"
+	"archivos.h"
+
+1761179528 source:d:\descargas\tptopicosuv\tptopicos\validaciones.c
+	"validaciones.h"
+
+1761178472 source:d:\descargas\tptopicosuv\tptopicos\menu.c
+	"menu.h"
+
+1761945565 source:d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\archivos.c
+	"archivos.h"
+
+1761013431 d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\archivos.h
+	<stdio.h>
+	<stdlib.h>
+	"estructura.h"
+	"indice.h"
+	"validaciones.h"
+
+1761066709 d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\estructura.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1761177967 d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\indice.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructura.h"
+
+1761945434 d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<dirent.h>
+	"estructura.h"
+	"indice.h"
+
+1761939335 source:d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\indice.c
+	"indice.h"
+	"estructura.h"
+	"validaciones.h"
+
+1761937408 source:d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\main.c
+	"menu.h"
+	"indice.h"
+	"estructura.h"
+	"archivos.h"
+
+1761942249 d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\menu.h
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+	"estructura.h"
+	"indice.h"
+	"archivos.h"
+
+1761943356 source:d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\menu.c
+	"menu.h"
+
+1761945434 source:d:\descargas\tp-topicos-2c2025-grupo6\tptopicos\validaciones.c
+	"validaciones.h"
+
+1761945565 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\archivos.c
+	"archivos.h"
+
+1761013431 d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\archivos.h
+	<stdio.h>
+	<stdlib.h>
+	"estructura.h"
+	"indice.h"
+	"validaciones.h"
+
+1761066709 d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\estructura.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1761177967 d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\indice.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructura.h"
+
+1761945434 d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<dirent.h>
+	"estructura.h"
+	"indice.h"
+
+1761939335 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\indice.c
+	"indice.h"
+	"estructura.h"
+	"validaciones.h"
+
+1761937408 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\main.c
+	"menu.h"
+	"indice.h"
+	"estructura.h"
+	"archivos.h"
+
+1761942249 d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\menu.h
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+	"estructura.h"
+	"indice.h"
+	"archivos.h"
+
+1761943356 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\menu.c
+	"menu.h"
+
+1761945434 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega\tptopicos\validaciones.c
+	"validaciones.h"
+
+1761945565 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\archivos.c
+	"archivos.h"
+
+1761013431 d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\archivos.h
+	<stdio.h>
+	<stdlib.h>
+	"estructura.h"
+	"indice.h"
+	"validaciones.h"
+
+1761066709 d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\estructura.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1762454004 d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\indice.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructura.h"
+
+1762454030 d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<dirent.h>
+	"estructura.h"
+	"indice.h"
+
+1761937408 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\main.c
+	"menu.h"
+	"indice.h"
+	"estructura.h"
+	"archivos.h"
+
+1761942249 d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\menu.h
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+	"estructura.h"
+	"indice.h"
+	"archivos.h"
+
+1762454004 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\indice.c
+	"indice.h"
+	"estructura.h"
+	"validaciones.h"
+
+1762454004 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\menu.c
+	"menu.h"
+
+1762454011 source:d:\descargas\tp-topicos-2c2025-grupo6-reentrega2\tp-topicos-2c2025-grupo6-reentrega\tptopicos\validaciones.c
+	"validaciones.h"
+
