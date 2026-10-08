@@ -1,0 +1,336 @@
+# depslib dependency file v1.0
+1780270714 source:c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\funcionesdelibreria.c
+	"funcionesDeLibreria.h"
+	"macros.h"
+
+1780551841 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\funcionesdelibreria.h
+	"estructura.h"
+	"macros.h"
+
+1780551841 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\estructura.h
+
+1780361158 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\macros.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1780603539 source:c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\menu.c
+	"menu.h"
+	"tda.h"
+	"validacionesClientes.h"
+	"validacionesTitulos.h"
+	"macros.h"
+	"funcionesDeLibreria.h"
+
+1780552462 source:c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\tda.c
+	"tda.h"
+
+1780290409 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\tda.h
+	"macros.h"
+
+1780603816 source:c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\validacionesclientes.c
+	"estructura.h"
+	"funcionesDeLibreria.h"
+	<time.h>
+	<string.h>
+	<ctype.h>
+	"validacionesClientes.h"
+
+1780379007 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\validacionesclientes.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<dirent.h>
+	"estructura.h"
+	"indice.h"
+
+1780602488 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\indice.h
+	"macros.h"
+	"tda.h"
+
+1780378593 source:c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\validacionestitulos.c
+	"funcionesDeLibreria.h"
+	"string.h"
+	"indice.h"
+	<ctype.h>
+	"estructura.h"
+	"macros.h"
+	"validacionesTitulos.h"
+	"validacionesClientes.h"
+
+1780602512 source:c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\archivos.c
+	"archivos.h"
+	"tda.h"
+	"estructura.h"
+	"macros.h"
+	"printeo.h"
+	"macros.h"
+	"validacionesClientes.h"
+	"validacionesTitulos.h"
+	"indice.h"
+
+1780551841 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\archivos.h
+	"estructura.h"
+	"indice.h"
+	"tda.h"
+
+1780504852 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\printeo.h
+	"tda.h"
+	"estructura.h"
+
+1780377905 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\validacionestitulos.h
+
+1780552241 source:c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\indice.c
+	"indice.h"
+	"estructura.h"
+	"tda.h"
+
+1780592418 source:c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\main.c
+	"macros.h"
+	"estructura.h"
+	"menu.h"
+	"indice.h"
+	"archivos.h"
+	"validacionesClientes.h"
+	"tda.h"
+	"printeo.h"
+	"indice.h"
+
+1780601370 c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\menu.h
+	"indice.h"
+	"tda.h"
+	"estructura.h"
+
+1780551528 source:c:\unlam\topicosprimercuatri\tp_topicos-1c2026_grupo8\tp_topicos-1c2026_grupo8\printeo.c
+	"printeo.h"
+	"macros.h"
+	"validacionesClientes.h"
+	"validacionesTitulos.h"
+	"tda.h"
+	"estructura.h"
+
+1780614897 source:c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\archivos.c
+	"archivos.h"
+	"tda.h"
+	"estructura.h"
+	"macros.h"
+	"printeo.h"
+	"macros.h"
+	"validacionesClientes.h"
+	"validacionesTitulos.h"
+	"indice.h"
+
+1780604977 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\archivos.h
+	"estructura.h"
+	"indice.h"
+	"tda.h"
+
+1780604977 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\estructura.h
+
+1780604977 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\indice.h
+	"macros.h"
+	"tda.h"
+
+1780632123 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\macros.h
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1780604977 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\tda.h
+	"macros.h"
+
+1780604977 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\printeo.h
+	"tda.h"
+	"estructura.h"
+
+1780616945 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\validacionesclientes.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<dirent.h>
+	"estructura.h"
+	"indice.h"
+
+1780604977 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\validacionestitulos.h
+
+1780604977 source:c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\funcionesdelibreria.c
+	"funcionesDeLibreria.h"
+	"macros.h"
+
+1780604977 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\funcionesdelibreria.h
+	"estructura.h"
+	"macros.h"
+
+1780607326 source:c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\indice.c
+	"indice.h"
+	"estructura.h"
+	"tda.h"
+
+1780610394 source:c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\main.c
+	"macros.h"
+	"estructura.h"
+	"menu.h"
+	"indice.h"
+	"archivos.h"
+	"validacionesClientes.h"
+	"tda.h"
+	"printeo.h"
+	"indice.h"
+
+1780604977 c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\menu.h
+	"indice.h"
+	"tda.h"
+	"estructura.h"
+
+1780632562 source:c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\menu.c
+	"menu.h"
+	"tda.h"
+	"validacionesClientes.h"
+	"validacionesTitulos.h"
+	"macros.h"
+	"funcionesDeLibreria.h"
+
+1780604977 source:c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\printeo.c
+	"printeo.h"
+	"macros.h"
+	"validacionesClientes.h"
+	"validacionesTitulos.h"
+	"tda.h"
+	"estructura.h"
+
+1780604977 source:c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\tda.c
+	"tda.h"
+
+1780617789 source:c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\validacionesclientes.c
+	"estructura.h"
+	"funcionesDeLibreria.h"
+	<time.h>
+	<string.h>
+	<ctype.h>
+	"validacionesClientes.h"
+
+1780604977 source:c:\users\ezequ\desktop\tptopicos\sistemadegestionintegral-project\validacionestitulos.c
+	"funcionesDeLibreria.h"
+	"string.h"
+	"indice.h"
+	<ctype.h>
+	"estructura.h"
+	"macros.h"
+	"validacionesTitulos.h"
+	"validacionesClientes.h"
+
+1781798709 source:c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\archivos.c
+	"archivos.h"
+	"tda.h"
+	"estructura.h"
+	"macros.h"
+	"printeo.h"
+	"macros.h"
+	"validacionesClientes.h"
+	"validacionesTitulos.h"
+	"indice.h"
+
+1781797985 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\archivos.h
+	"estructura.h"
+	"indice.h"
+	"tda.h"
+
+1781797985 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\estructura.h
+
+1781797985 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\indice.h
+	"macros.h"
+	"tda.h"
+
+1781798963 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\macros.h
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1781797985 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\tda.h
+	"macros.h"
+
+1781797985 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\printeo.h
+	"tda.h"
+	"estructura.h"
+
+1781797985 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\validacionesclientes.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<dirent.h>
+	"estructura.h"
+	"indice.h"
+
+1781797985 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\validacionestitulos.h
+
+1781797985 source:c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\funcionesdelibreria.c
+	"funcionesDeLibreria.h"
+	"macros.h"
+
+1781797985 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\funcionesdelibreria.h
+	"estructura.h"
+	"macros.h"
+
+1781797985 source:c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\indice.c
+	"indice.h"
+	"estructura.h"
+	"tda.h"
+
+1781797985 source:c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\main.c
+	"macros.h"
+	"estructura.h"
+	"menu.h"
+	"indice.h"
+	"archivos.h"
+	"validacionesClientes.h"
+	"tda.h"
+	"printeo.h"
+	"indice.h"
+
+1781797985 c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\menu.h
+	"indice.h"
+	"tda.h"
+	"estructura.h"
+
+1781797985 source:c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\menu.c
+	"menu.h"
+	"tda.h"
+	"validacionesClientes.h"
+	"validacionesTitulos.h"
+	"macros.h"
+	"funcionesDeLibreria.h"
+
+1781797985 source:c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\printeo.c
+	"printeo.h"
+	"macros.h"
+	"validacionesClientes.h"
+	"validacionesTitulos.h"
+	"tda.h"
+	"estructura.h"
+
+1781797985 source:c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\tda.c
+	"tda.h"
+
+1781797985 source:c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\validacionesclientes.c
+	"estructura.h"
+	"funcionesDeLibreria.h"
+	<time.h>
+	<string.h>
+	<ctype.h>
+	"validacionesClientes.h"
+
+1781797985 source:c:\unlam\topicosprimercuatri\tp_terminado\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8 (1)\sistemadegestionintegral-project-tp-topicos-1c2026-grupo8\validacionestitulos.c
+	"funcionesDeLibreria.h"
+	"string.h"
+	"indice.h"
+	<ctype.h>
+	"estructura.h"
+	"macros.h"
+	"validacionesTitulos.h"
+	"validacionesClientes.h"
+

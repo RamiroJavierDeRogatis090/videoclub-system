@@ -1,17 +1,6 @@
 #ifndef ESTRUCTURA_H_INCLUDED
 #define ESTRUCTURA_H_INCLUDED
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <time.h>
-
-#define L_MENU 100
-#define MIN_YEAR 1900
-#define MAX_YEAR 2025
-#define REGISTRO 150
-#define NOMTXT "miembros-VC.txt"
-#define MAX_PATH 100
 
 typedef struct
 {
@@ -25,6 +14,7 @@ typedef struct
     long dni;
     char nyp[60];
     Sfech fechNac;
+    char cuil[12];
     char sexo;
     Sfech fechAfilia;
     char categoria[10];
@@ -35,5 +25,24 @@ typedef struct
 } Ssocio;
 
 
+typedef struct
+{
+    int idPelicula;
+    char titulo[61];
+    char genero[21];
+    int stock;
+    char estado;
+
+} Spelicula;
+
+
+/// Estructura agregada para resuelve H
+typedef struct
+{
+    long dni;
+    int idPelicula;
+    int cantAlquileres;
+    char activo;  ///S Alquilada y N no alquilada.
+} SAlquiler;
 
 #endif // ESTRUCTURA_H_INCLUDED

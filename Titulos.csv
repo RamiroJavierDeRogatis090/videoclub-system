@@ -1,0 +1,1000 @@
+1;Matrix 1;Drama;49
+2;Matrix 2;Comedia;22
+3;El Padrino 3;Drama;-5
+4;Inception 4;Documental;6
+5;Gladiador 5;Drama;17
+6;Halloween 6;Acción;39
+7;Halloween 7;Drama;16
+8;Titanic 8;Terror;21
+9;El Padrino 9;Comedia;12
+10;titanic 10;Terror;12
+11;Inception 11;Terror;44
+12;Matrix 12;Terror;-1
+13;Titanic 13;Comedia;-4
+14;Avatar 14;Comedia;50
+15;Titanic 15;Drama;-5
+16;Alien 16;Sci-Fi;40
+17;Inception 17;Acción;-6
+18;Halloween 18;Drama;37
+19;Inception 19;Drama;0
+20;Titanic 20;Sci-Fi;48
+21;Titanic 21;Drama;10
+22;Inception 22;Comedia;35
+23;Matrix 23;Comedia;25
+24;Inception 24;Terror;29
+25;matrix 25;Acción;17
+26;Avatar 26;Drama;24
+27;Gladiador 27;Terror;26
+28;Gladiador 28;Comedia;16
+29;Gladiador 29;Sci-Fi;44
+30;Matrix 30;Comedia;0
+31;Halloween 31;Acción;4
+32;Avatar 32;Acción;-4
+33;Titanic 33;Comedia;10
+34;Halloween 34;Terror;48
+35;gladiador 35;Drama;11
+36;matrix 36;Drama;49
+37;Halloween 37;Comedia;1
+38;El Padrino 38;Acción;16
+39;Inception 39;Anime;18
+40;Matrix 40;Acción;-9
+41;Gladiador 41;Comedia;-5
+42;Gladiador 42;Comedia;25
+43;El Padrino 43;Sci-Fi;10
+44;Halloween 44;Terror;20
+45;halloween 45;Terror;31
+46;Avatar 46;Comedia;29
+47;Titanic 47;Comedia;41
+48;avatar 48;Acción;12
+49;Titanic 49;Comedia;14
+50;Halloween 50;Acción;6
+51;Titanic 51;Acción;-5
+52;el padrino 52;Comedia;47
+53;Matrix 53;Drama;38
+54;Avatar 54;Drama;-9
+55;Gladiador 55;Terror;35
+56;alien 56;Terror;50
+57;Gladiador 57;Terror;-4
+58;Avatar 58;Terror;14
+59;Gladiador 59;Terror;10
+60;Avatar 60;Comedia;24
+61;Halloween 61;Terror;-8
+62;Gladiador 62;Terror;34
+63;Matrix 63;Drama;18
+64;Avatar 64;Acción;21
+65;Halloween 65;Terror;7
+66;halloween 66;Terror;13
+67;Titanic 67;Romance;30
+68;Halloween 68;Acción;28
+69;Avatar 69;Acción;36
+70;El Padrino 70;Documental;39
+71;Matrix 71;Acción;13
+72;Alien 72;Drama;12
+73;Alien 73;Comedia;43
+74;Avatar 74;Terror;34
+75;Alien 75;Drama;43
+76;Halloween 76;Acción;14
+77;Titanic 77;Terror;-8
+78;Titanic 78;Acción;-2
+79;Gladiador 79;Drama;20
+80;Avatar 80;Drama;-6
+81;matrix 81;Drama;17
+82;Matrix 82;Drama;-7
+83;Titanic 83;Anime;8
+84;Alien 84;Comedia;-7
+85;El Padrino 85;Drama;33
+86;Inception 86;Anime;32
+87;Halloween 87;Terror;23
+88;Matrix 88;Acción;50
+89;Gladiador 89;Drama;35
+90;titanic 90;Comedia;35
+91;Inception 91;Drama;16
+92;El Padrino 92;Terror;45
+93;Gladiador 93;Romance;8
+94;Gladiador 94;Anime;38
+95;alien 95;Comedia;37
+96;Alien 96;Comedia;32
+97;Titanic 97;Terror;26
+98;Alien 98;Terror;13
+99;Alien 99;Drama;36
+100;Avatar 100;Sci-Fi;29
+101;Titanic 101;Sci-Fi;42
+102;halloween 102;Comedia;47
+103;Titanic 103;Comedia;36
+104;Avatar 104;Drama;-5
+105;titanic 105;Terror;6
+106;Halloween 106;Documental;12
+107;Matrix 107;Acción;34
+108;Inception 108;Terror;5
+109;Halloween 109;Acción;-8
+110;Inception 110;Drama;36
+111;Avatar 111;Terror;47
+112;Gladiador 112;Comedia;10
+113;Avatar 113;Terror;4
+114;Gladiador 114;Terror;8
+115;Titanic 115;Comedia;9
+116;Alien 116;Comedia;8
+117;El Padrino 117;Acción;22
+118;matrix 118;Comedia;40
+119;Inception 119;Comedia;12
+120;Halloween 120;Acción;-7
+121;Inception 121;Drama;19
+122;El Padrino 122;Sci-Fi;33
+123;Alien 123;Comedia;10
+124;avatar 124;Drama;1
+125;El Padrino 125;Drama;47
+126;Halloween 126;Drama;13
+127;Inception 127;Terror;45
+128;Halloween 128;Romance;42
+129;El Padrino 129;Drama;50
+130;Avatar 130;Acción;41
+131;inception 131;Comedia;41
+132;Alien 132;Drama;27
+133;inception 133;Comedia;22
+134;El Padrino 134;Drama;35
+135;Titanic 135;Drama;-1
+136;Inception 136;Terror;4
+137;Alien 137;Comedia;42
+138;Avatar 138;Acción;-2
+139;Matrix 139;Drama;7
+140;Titanic 140;Drama;40
+141;Titanic 141;Comedia;8
+142;Titanic 142;Comedia;39
+143;Titanic 143;Acción;35
+144;Avatar 144;Terror;8
+145;Titanic 145;Acción;14
+146;halloween 146;Drama;41
+147;Alien 147;Acción;23
+148;Alien 148;Comedia;20
+149;Inception 149;Drama;28
+150;Alien 150;Terror;45
+151;Alien 151;Drama;17
+152;Avatar 152;Drama;19
+153;El Padrino 153;Terror;35
+154;Avatar 154;Terror;17
+155;Halloween 155;Terror;30
+156;Alien 156;Terror;13
+157;Avatar 157;Terror;15
+158;El Padrino 158;Anime;34
+159;Gladiador 159;Terror;38
+160;gladiador 160;Acción;19
+161;avatar 161;Terror;15
+162;Avatar 162;Documental;37
+163;avatar 163;Comedia;22
+164;halloween 164;Acción;50
+165;Matrix 165;Comedia;13
+166;Matrix 166;Romance;38
+167;Halloween 167;Romance;50
+168;Gladiador 168;Comedia;16
+169;Matrix 169;Terror;22
+170;titanic 170;Terror;23
+171;Alien 171;Comedia;40
+172;titanic 172;Terror;1
+173;El Padrino 173;Documental;35
+174;Gladiador 174;Drama;-9
+175;Titanic 175;Drama;6
+176;Gladiador 176;Comedia;26
+177;Alien 177;Terror;37
+178;Titanic 178;Documental;38
+179;titanic 179;Drama;9
+180;El Padrino 180;Terror;21
+181;Titanic 181;Terror;6
+182;El Padrino 182;Romance;30
+183;Alien 183;Terror;9
+184;Halloween 184;Comedia;-8
+185;Avatar 185;Drama;25
+186;Alien 186;Comedia;39
+187;gladiador 187;Drama;40
+188;Matrix 188;Acción;37
+189;Alien 189;Terror;27
+190;Inception 190;Comedia;32
+191;Titanic 191;Sci-Fi;1
+192;Matrix 192;Comedia;49
+193;Avatar 193;Drama;4
+194;Halloween 194;Comedia;-1
+195;Titanic 195;Terror;7
+196;Avatar 196;Drama;-1
+197;Matrix 197;Drama;38
+198;Matrix 198;Comedia;41
+199;Halloween 199;Drama;48
+200;Gladiador 200;Terror;12
+201;Avatar 201;Acción;7
+202;Inception 202;Terror;9
+203;El Padrino 203;Romance;44
+204;avatar 204;Comedia;4
+205;Alien 205;Comedia;7
+206;El Padrino 206;Drama;-2
+207;Gladiador 207;Comedia;-4
+208;Matrix 208;Acción;33
+209;Titanic 209;Terror;6
+210;Gladiador 210;Acción;43
+211;El Padrino 211;Comedia;32
+212;Titanic 212;Drama;28
+213;Inception 213;Terror;-10
+214;Matrix 214;Terror;-7
+215;El Padrino 215;Drama;48
+216;Inception 216;Romance;3
+217;Inception 217;Comedia;0
+218;Inception 218;Comedia;3
+219;Titanic 219;Acción;25
+220;Inception 220;Comedia;27
+221;Halloween 221;Acción;-4
+222;inception 222;Acción;31
+223;Halloween 223;Terror;9
+224;avatar 224;Terror;44
+225;Halloween 225;Terror;3
+226;Matrix 226;Drama;32
+227;Avatar 227;Terror;35
+228;El Padrino 228;Terror;41
+229;Inception 229;Acción;21
+230;Gladiador 230;Comedia;11
+231;Inception 231;Comedia;32
+232;Titanic 232;Sci-Fi;10
+233;El Padrino 233;Drama;17
+234;Halloween 234;Terror;26
+235;Halloween 235;Romance;46
+236;El Padrino 236;Acción;-10
+237;Avatar 237;Acción;25
+238;avatar 238;Drama;31
+239;Halloween 239;Comedia;23
+240;Titanic 240;Drama;7
+241;matrix 241;Drama;41
+242;Inception 242;Acción;27
+243;Halloween 243;Comedia;-4
+244;Titanic 244;Comedia;-2
+245;Avatar 245;Sci-Fi;28
+246;Inception 246;Comedia;25
+247;Titanic 247;Acción;27
+248;Titanic 248;Sci-Fi;19
+249;Gladiador 249;Acción;33
+250;Matrix 250;Anime;49
+251;Alien 251;Drama;27
+252;El Padrino 252;Comedia;34
+253;El Padrino 253;Drama;27
+254;Gladiador 254;Acción;41
+255;avatar 255;Comedia;1
+256;Inception 256;Drama;16
+257;alien 257;Terror;44
+258;Titanic 258;Terror;12
+259;Avatar 259;Terror;39
+260;Inception 260;Comedia;43
+261;El Padrino 261;Comedia;21
+262;Inception 262;Terror;36
+263;Inception 263;Comedia;4
+264;Titanic 264;Comedia;-8
+265;Avatar 265;Sci-Fi;7
+266;gladiador 266;Acción;4
+267;titanic 267;Comedia;19
+268;inception 268;Drama;32
+269;Matrix 269;Anime;27
+270;avatar 270;Comedia;10
+271;gladiador 271;Acción;37
+272;Avatar 272;Sci-Fi;14
+273;Inception 273;Terror;35
+274;Alien 274;Drama;25
+275;Inception 275;Acción;36
+276;alien 276;Acción;23
+277;Gladiador 277;Romance;49
+278;Matrix 278;Drama;38
+279;Avatar 279;Drama;-1
+280;Avatar 280;Terror;-4
+281;Inception 281;Acción;36
+282;Alien 282;Comedia;43
+283;Gladiador 283;Comedia;-7
+284;El Padrino 284;Terror;29
+285;Halloween 285;Anime;50
+286;avatar 286;Drama;5
+287;El Padrino 287;Sci-Fi;6
+288;Gladiador 288;Terror;46
+289;matrix 289;Drama;29
+290;Titanic 290;Romance;32
+291;Halloween 291;Comedia;45
+292;El Padrino 292;Drama;16
+293;Avatar 293;Terror;3
+294;Alien 294;Terror;-5
+295;Alien 295;Terror;14
+296;Titanic 296;Drama;8
+297;Titanic 297;Acción;28
+298;Alien 298;Drama;7
+299;Matrix 299;Sci-Fi;32
+300;Gladiador 300;Acción;49
+301;inception 301;Comedia;28
+302;Avatar 302;Drama;19
+303;Titanic 303;Sci-Fi;23
+304;Alien 304;Drama;39
+305;Avatar 305;Terror;-9
+306;Alien 306;Romance;43
+307;Inception 307;Acción;17
+308;alien 308;Comedia;25
+309;Titanic 309;Terror;10
+310;Titanic 310;Sci-Fi;3
+311;Avatar 311;Terror;-10
+312;Matrix 312;Sci-Fi;40
+313;Matrix 313;Documental;17
+314;Matrix 314;Acción;26
+315;Avatar 315;Terror;18
+316;Inception 316;Comedia;9
+317;matrix 317;Terror;19
+318;Gladiador 318;Romance;43
+319;Inception 319;Romance;21
+320;Alien 320;Comedia;20
+321;avatar 321;Drama;11
+322;El Padrino 322;Acción;-4
+323;Alien 323;Comedia;13
+324;titanic 324;Terror;30
+325;Alien 325;Acción;0
+326;El Padrino 326;Acción;30
+327;Inception 327;Acción;40
+328;Matrix 328;Romance;43
+329;Halloween 329;Acción;1
+330;Halloween 330;Documental;11
+331;el padrino 331;Acción;20
+332;avatar 332;Acción;34
+333;gladiador 333;Acción;33
+334;titanic 334;Comedia;2
+335;el padrino 335;Terror;27
+336;Matrix 336;Documental;23
+337;Alien 337;Acción;44
+338;Alien 338;Comedia;13
+339;Gladiador 339;Terror;44
+340;titanic 340;Terror;11
+341;Gladiador 341;Comedia;21
+342;Avatar 342;Terror;4
+343;El Padrino 343;Acción;12
+344;Halloween 344;Terror;-7
+345;inception 345;Drama;50
+346;Titanic 346;Terror;-2
+347;Matrix 347;Terror;22
+348;Avatar 348;Anime;36
+349;Inception 349;Comedia;-7
+350;Avatar 350;Terror;-5
+351;Titanic 351;Drama;48
+352;Matrix 352;Terror;13
+353;Halloween 353;Drama;47
+354;El Padrino 354;Comedia;34
+355;Matrix 355;Terror;17
+356;El Padrino 356;Drama;5
+357;Avatar 357;Comedia;8
+358;Inception 358;Romance;28
+359;Inception 359;Documental;37
+360;Matrix 360;Terror;47
+361;Matrix 361;Terror;-8
+362;Alien 362;Drama;-7
+363;El Padrino 363;Acción;-6
+364;Titanic 364;Acción;33
+365;Gladiador 365;Comedia;0
+366;Halloween 366;Anime;9
+367;Gladiador 367;Acción;47
+368;titanic 368;Acción;47
+369;Titanic 369;Drama;20
+370;Gladiador 370;Acción;37
+371;El Padrino 371;Comedia;12
+372;Titanic 372;Acción;37
+373;inception 373;Drama;7
+374;Gladiador 374;Acción;6
+375;Avatar 375;Terror;9
+376;Titanic 376;Drama;14
+377;Titanic 377;Terror;-4
+378;El Padrino 378;Drama;47
+379;Inception 379;Drama;-4
+380;Matrix 380;Drama;25
+381;Halloween 381;Documental;33
+382;Inception 382;Terror;6
+383;Matrix 383;Terror;28
+384;Halloween 384;Documental;7
+385;Matrix 385;Comedia;1
+386;Gladiador 386;Drama;24
+387;El Padrino 387;Comedia;40
+388;Alien 388;Acción;14
+389;Matrix 389;Drama;24
+390;Halloween 390;Acción;35
+391;Matrix 391;Sci-Fi;44
+392;Titanic 392;Drama;16
+393;Inception 393;Sci-Fi;22
+394;Gladiador 394;Acción;-4
+395;titanic 395;Comedia;25
+396;Halloween 396;Acción;27
+397;Inception 397;Acción;48
+398;Matrix 398;Comedia;9
+399;Matrix 399;Acción;16
+400;Halloween 400;Drama;21
+401;Avatar 401;Romance;16
+402;el padrino 402;Drama;20
+403;Halloween 403;Terror;-9
+404;Avatar 404;Comedia;16
+405;Titanic 405;Comedia;-5
+406;Alien 406;Terror;1
+407;Inception 407;Acción;25
+408;Halloween 408;Terror;13
+409;Inception 409;Sci-Fi;50
+410;Gladiador 410;Acción;19
+411;El Padrino 411;Terror;2
+412;Avatar 412;Comedia;14
+413;Titanic 413;Romance;29
+414;Halloween 414;Comedia;13
+415;Alien 415;Comedia;29
+416;Matrix 416;Acción;38
+417;Inception 417;Comedia;24
+418;El Padrino 418;Terror;-8
+419;Avatar 419;Terror;-6
+420;Titanic 420;Drama;46
+421;El Padrino 421;Comedia;37
+422;Matrix 422;Drama;5
+423;Alien 423;Comedia;38
+424;Gladiador 424;Drama;-8
+425;Halloween 425;Terror;14
+426;Avatar 426;Romance;10
+427;Inception 427;Acción;42
+428;matrix 428;Drama;46
+429;Gladiador 429;Comedia;-2
+430;Inception 430;Anime;32
+431;Titanic 431;Comedia;49
+432;Titanic 432;Drama;21
+433;Gladiador 433;Drama;46
+434;Matrix 434;Sci-Fi;30
+435;Inception 435;Terror;26
+436;matrix 436;Drama;26
+437;avatar 437;Terror;11
+438;Halloween 438;Terror;12
+439;Inception 439;Acción;39
+440;Avatar 440;Acción;11
+441;Alien 441;Terror;35
+442;Inception 442;Comedia;-7
+443;Alien 443;Acción;-9
+444;Inception 444;Comedia;14
+445;Alien 445;Terror;41
+446;Inception 446;Comedia;-9
+447;Avatar 447;Comedia;-3
+448;El Padrino 448;Comedia;29
+449;avatar 449;Terror;16
+450;Avatar 450;Drama;-10
+451;Avatar 451;Drama;20
+452;El Padrino 452;Terror;16
+453;El Padrino 453;Drama;44
+454;Halloween 454;Comedia;-6
+455;Titanic 455;Drama;50
+456;Titanic 456;Drama;42
+457;Matrix 457;Terror;22
+458;El Padrino 458;Comedia;42
+459;El Padrino 459;Anime;37
+460;Titanic 460;Anime;24
+461;gladiador 461;Drama;6
+462;Gladiador 462;Drama;45
+463;Inception 463;Terror;5
+464;Avatar 464;Sci-Fi;12
+465;Matrix 465;Terror;3
+466;Inception 466;Sci-Fi;7
+467;Alien 467;Sci-Fi;25
+468;El Padrino 468;Acción;14
+469;avatar 469;Drama;42
+470;Matrix 470;Documental;11
+471;Alien 471;Acción;12
+472;Titanic 472;Romance;30
+473;Matrix 473;Acción;47
+474;Alien 474;Anime;42
+475;Avatar 475;Comedia;-7
+476;Halloween 476;Sci-Fi;21
+477;Alien 477;Drama;17
+478;inception 478;Acción;50
+479;Gladiador 479;Drama;40
+480;halloween 480;Terror;37
+481;gladiador 481;Comedia;29
+482;Matrix 482;Comedia;5
+483;Titanic 483;Drama;-9
+484;Gladiador 484;Terror;10
+485;Alien 485;Comedia;11
+486;Alien 486;Acción;-3
+487;Avatar 487;Drama;33
+488;Gladiador 488;Drama;5
+489;Avatar 489;Romance;6
+490;Alien 490;Terror;36
+491;Inception 491;Acción;27
+492;Alien 492;Romance;19
+493;Avatar 493;Acción;45
+494;Gladiador 494;Sci-Fi;32
+495;Avatar 495;Terror;20
+496;Matrix 496;Acción;1
+497;Inception 497;Drama;-6
+498;El Padrino 498;Drama;-8
+499;El Padrino 499;Acción;1
+500;Alien 500;Acción;46
+501;el padrino 501;Terror;12
+502;Gladiador 502;Acción;28
+503;Alien 503;Acción;16
+504;Inception 504;Drama;-10
+505;Avatar 505;Drama;-10
+506;Inception 506;Acción;4
+507;Avatar 507;Comedia;21
+508;Alien 508;Drama;11
+509;Alien 509;Comedia;27
+510;Alien 510;Acción;25
+511;Matrix 511;Terror;-8
+512;Inception 512;Acción;37
+513;el padrino 513;Acción;18
+514;El Padrino 514;Terror;26
+515;Avatar 515;Acción;35
+516;el padrino 516;Terror;9
+517;El Padrino 517;Terror;36
+518;inception 518;Comedia;34
+519;Gladiador 519;Comedia;28
+520;Titanic 520;Terror;13
+521;Halloween 521;Acción;17
+522;Titanic 522;Acción;42
+523;Alien 523;Comedia;50
+524;Matrix 524;Terror;9
+525;Avatar 525;Romance;42
+526;Halloween 526;Drama;19
+527;alien 527;Terror;9
+528;Avatar 528;Romance;16
+529;matrix 529;Comedia;23
+530;el padrino 530;Drama;8
+531;gladiador 531;Drama;6
+532;Inception 532;Terror;0
+533;Avatar 533;Drama;39
+534;Inception 534;Terror;44
+535;Halloween 535;Acción;34
+536;gladiador 536;Drama;4
+537;Gladiador 537;Terror;19
+538;Matrix 538;Drama;0
+539;titanic 539;Drama;6
+540;halloween 540;Terror;18
+541;gladiador 541;Drama;12
+542;El Padrino 542;Terror;48
+543;titanic 543;Comedia;1
+544;Avatar 544;Terror;41
+545;Avatar 545;Drama;19
+546;Halloween 546;Terror;19
+547;Matrix 547;Terror;46
+548;Halloween 548;Terror;20
+549;Inception 549;Drama;18
+550;Avatar 550;Comedia;6
+551;Halloween 551;Romance;8
+552;Titanic 552;Documental;7
+553;Titanic 553;Acción;1
+554;Inception 554;Drama;39
+555;Gladiador 555;Comedia;15
+556;halloween 556;Terror;28
+557;el padrino 557;Drama;34
+558;gladiador 558;Drama;47
+559;El Padrino 559;Romance;33
+560;Inception 560;Comedia;8
+561;Titanic 561;Acción;-2
+562;Inception 562;Anime;49
+563;Matrix 563;Acción;46
+564;Matrix 564;Drama;5
+565;Avatar 565;Acción;18
+566;Halloween 566;Drama;-1
+567;Gladiador 567;Acción;-3
+568;Gladiador 568;Drama;-7
+569;Gladiador 569;Terror;3
+570;Alien 570;Comedia;6
+571;Inception 571;Drama;29
+572;alien 572;Acción;38
+573;Alien 573;Acción;16
+574;Avatar 574;Romance;31
+575;Inception 575;Comedia;7
+576;Inception 576;Comedia;12
+577;Avatar 577;Terror;11
+578;avatar 578;Terror;38
+579;Gladiador 579;Terror;11
+580;avatar 580;Acción;2
+581;Titanic 581;Drama;9
+582;Matrix 582;Drama;39
+583;Gladiador 583;Comedia;11
+584;el padrino 584;Comedia;32
+585;Matrix 585;Drama;48
+586;Inception 586;Terror;5
+587;Avatar 587;Drama;21
+588;Avatar 588;Documental;49
+589;Gladiador 589;Drama;35
+590;Avatar 590;Comedia;-3
+591;matrix 591;Terror;39
+592;Inception 592;Terror;9
+593;Halloween 593;Terror;14
+594;El Padrino 594;Comedia;41
+595;Inception 595;Acción;-10
+596;halloween 596;Comedia;33
+597;Matrix 597;Terror;43
+598;Halloween 598;Drama;24
+599;Halloween 599;Terror;18
+600;avatar 600;Comedia;23
+601;gladiador 601;Acción;9
+602;gladiador 602;Drama;14
+603;Avatar 603;Acción;49
+604;halloween 604;Comedia;14
+605;gladiador 605;Terror;45
+606;Matrix 606;Terror;-9
+607;el padrino 607;Comedia;41
+608;Titanic 608;Sci-Fi;19
+609;Inception 609;Terror;-1
+610;Gladiador 610;Terror;41
+611;Matrix 611;Documental;7
+612;titanic 612;Terror;39
+613;Halloween 613;Terror;21
+614;Avatar 614;Terror;5
+615;Halloween 615;Comedia;-10
+616;El Padrino 616;Acción;19
+617;Avatar 617;Comedia;37
+618;Gladiador 618;Comedia;20
+619;Inception 619;Sci-Fi;39
+620;Matrix 620;Comedia;31
+621;Alien 621;Terror;21
+622;alien 622;Terror;20
+623;Titanic 623;Sci-Fi;37
+624;Titanic 624;Acción;7
+625;Avatar 625;Acción;27
+626;Matrix 626;Drama;7
+627;Avatar 627;Acción;0
+628;Avatar 628;Comedia;-8
+629;Gladiador 629;Comedia;0
+630;Matrix 630;Terror;43
+631;Alien 631;Sci-Fi;49
+632;Gladiador 632;Sci-Fi;16
+633;El Padrino 633;Acción;-1
+634;Inception 634;Acción;19
+635;Gladiador 635;Drama;-2
+636;Matrix 636;Terror;12
+637;Halloween 637;Terror;0
+638;Matrix 638;Acción;49
+639;Halloween 639;Acción;46
+640;Avatar 640;Drama;21
+641;El Padrino 641;Comedia;48
+642;Alien 642;Anime;20
+643;el padrino 643;Drama;42
+644;Inception 644;Terror;38
+645;Gladiador 645;Comedia;44
+646;Inception 646;Anime;41
+647;El Padrino 647;Comedia;17
+648;El Padrino 648;Terror;4
+649;Gladiador 649;Drama;29
+650;Inception 650;Drama;27
+651;Inception 651;Comedia;25
+652;Matrix 652;Acción;-8
+653;Halloween 653;Drama;8
+654;El Padrino 654;Terror;-2
+655;Avatar 655;Acción;27
+656;Matrix 656;Comedia;35
+657;Avatar 657;Drama;39
+658;Avatar 658;Comedia;-5
+659;Halloween 659;Drama;48
+660;Alien 660;Comedia;46
+661;Matrix 661;Romance;19
+662;Alien 662;Comedia;45
+663;Avatar 663;Comedia;-4
+664;El Padrino 664;Comedia;-6
+665;Alien 665;Acción;8
+666;El Padrino 666;Terror;15
+667;Avatar 667;Comedia;21
+668;gladiador 668;Comedia;47
+669;Matrix 669;Acción;0
+670;Avatar 670;Acción;28
+671;Titanic 671;Drama;10
+672;Halloween 672;Drama;24
+673;Avatar 673;Drama;43
+674;Halloween 674;Documental;40
+675;matrix 675;Drama;43
+676;Alien 676;Comedia;10
+677;Gladiador 677;Terror;-3
+678;Matrix 678;Romance;44
+679;Halloween 679;Comedia;13
+680;alien 680;Drama;37
+681;Alien 681;Romance;26
+682;Matrix 682;Comedia;49
+683;Gladiador 683;Acción;17
+684;Matrix 684;Drama;26
+685;Avatar 685;Romance;20
+686;Halloween 686;Romance;32
+687;inception 687;Drama;30
+688;El Padrino 688;Terror;13
+689;Titanic 689;Anime;44
+690;Alien 690;Comedia;6
+691;Halloween 691;Documental;39
+692;Matrix 692;Sci-Fi;3
+693;Avatar 693;Terror;-4
+694;Avatar 694;Sci-Fi;6
+695;Halloween 695;Drama;-9
+696;Alien 696;Drama;-7
+697;Halloween 697;Romance;9
+698;Avatar 698;Drama;43
+699;el padrino 699;Acción;35
+700;Titanic 700;Acción;12
+701;Halloween 701;Comedia;1
+702;El Padrino 702;Comedia;18
+703;gladiador 703;Terror;45
+704;Alien 704;Romance;7
+705;El Padrino 705;Comedia;45
+706;Matrix 706;Terror;-6
+707;Inception 707;Terror;44
+708;Matrix 708;Comedia;27
+709;Inception 709;Terror;41
+710;Alien 710;Comedia;-2
+711;El Padrino 711;Drama;18
+712;avatar 712;Drama;42
+713;El Padrino 713;Acción;38
+714;alien 714;Acción;48
+715;Inception 715;Comedia;36
+716;Halloween 716;Acción;43
+717;Gladiador 717;Comedia;-10
+718;gladiador 718;Acción;1
+719;Matrix 719;Drama;-3
+720;Avatar 720;Comedia;50
+721;alien 721;Acción;26
+722;Alien 722;Comedia;24
+723;alien 723;Comedia;6
+724;Alien 724;Drama;39
+725;Matrix 725;Comedia;1
+726;avatar 726;Comedia;17
+727;Avatar 727;Acción;17
+728;Inception 728;Terror;-1
+729;Alien 729;Terror;28
+730;El Padrino 730;Comedia;-9
+731;Titanic 731;Terror;43
+732;Gladiador 732;Acción;49
+733;Inception 733;Drama;0
+734;Gladiador 734;Terror;13
+735;avatar 735;Terror;48
+736;Halloween 736;Romance;5
+737;Avatar 737;Terror;36
+738;Avatar 738;Drama;36
+739;Matrix 739;Terror;-1
+740;Matrix 740;Drama;22
+741;Halloween 741;Romance;24
+742;Alien 742;Drama;37
+743;el padrino 743;Comedia;25
+744;Gladiador 744;Acción;3
+745;inception 745;Drama;25
+746;Alien 746;Acción;16
+747;Avatar 747;Terror;7
+748;Titanic 748;Comedia;42
+749;Halloween 749;Comedia;31
+750;Alien 750;Comedia;20
+751;Halloween 751;Drama;42
+752;Gladiador 752;Acción;44
+753;Halloween 753;Comedia;5
+754;el padrino 754;Comedia;19
+755;Gladiador 755;Drama;20
+756;Matrix 756;Sci-Fi;22
+757;matrix 757;Drama;42
+758;Matrix 758;Drama;32
+759;Gladiador 759;Sci-Fi;47
+760;matrix 760;Terror;26
+761;Inception 761;Romance;27
+762;Inception 762;Acción;-1
+763;Gladiador 763;Comedia;14
+764;Titanic 764;Sci-Fi;34
+765;Avatar 765;Romance;44
+766;Alien 766;Comedia;9
+767;El Padrino 767;Drama;18
+768;titanic 768;Terror;39
+769;El Padrino 769;Comedia;24
+770;Halloween 770;Drama;39
+771;Halloween 771;Romance;3
+772;Gladiador 772;Drama;-3
+773;Inception 773;Terror;14
+774;Avatar 774;Terror;9
+775;Halloween 775;Drama;24
+776;Halloween 776;Drama;6
+777;Matrix 777;Comedia;44
+778;avatar 778;Comedia;24
+779;Avatar 779;Comedia;13
+780;Halloween 780;Acción;13
+781;El Padrino 781;Anime;9
+782;gladiador 782;Terror;12
+783;Inception 783;Acción;-7
+784;el padrino 784;Acción;9
+785;Avatar 785;Acción;47
+786;Inception 786;Comedia;23
+787;Inception 787;Drama;-6
+788;Alien 788;Acción;-6
+789;Avatar 789;Comedia;-6
+790;halloween 790;Acción;24
+791;Avatar 791;Terror;-7
+792;Avatar 792;Drama;16
+793;El Padrino 793;Drama;-7
+794;Matrix 794;Acción;-8
+795;Gladiador 795;Sci-Fi;27
+796;El Padrino 796;Acción;37
+797;Titanic 797;Drama;22
+798;Halloween 798;Acción;3
+799;Gladiador 799;Acción;31
+800;Alien 800;Documental;48
+801;gladiador 801;Acción;26
+802;Alien 802;Comedia;44
+803;Alien 803;Romance;1
+804;El Padrino 804;Acción;-1
+805;Titanic 805;Drama;10
+806;Titanic 806;Drama;18
+807;Halloween 807;Drama;27
+808;halloween 808;Terror;42
+809;Titanic 809;Terror;2
+810;avatar 810;Terror;42
+811;El Padrino 811;Acción;24
+812;Alien 812;Romance;12
+813;Gladiador 813;Acción;7
+814;Inception 814;Drama;12
+815;inception 815;Comedia;30
+816;Titanic 816;Drama;4
+817;Matrix 817;Acción;-6
+818;Gladiador 818;Anime;24
+819;titanic 819;Acción;11
+820;El Padrino 820;Terror;28
+821;Halloween 821;Comedia;13
+822;Titanic 822;Terror;50
+823;Avatar 823;Terror;42
+824;gladiador 824;Drama;20
+825;Alien 825;Drama;37
+826;Gladiador 826;Terror;38
+827;El Padrino 827;Acción;31
+828;El Padrino 828;Acción;-4
+829;Alien 829;Terror;40
+830;El Padrino 830;Comedia;15
+831;Halloween 831;Romance;1
+832;Gladiador 832;Terror;17
+833;Alien 833;Terror;24
+834;Avatar 834;Terror;30
+835;Inception 835;Comedia;12
+836;avatar 836;Acción;3
+837;Titanic 837;Acción;10
+838;El Padrino 838;Acción;25
+839;Titanic 839;Terror;6
+840;Matrix 840;Acción;-6
+841;Gladiador 841;Comedia;-9
+842;Gladiador 842;Terror;13
+843;Titanic 843;Terror;41
+844;Alien 844;Comedia;-3
+845;Avatar 845;Documental;30
+846;Matrix 846;Acción;50
+847;Avatar 847;Acción;41
+848;Titanic 848;Comedia;49
+849;Alien 849;Drama;46
+850;Avatar 850;Drama;39
+851;Matrix 851;Anime;25
+852;Halloween 852;Drama;33
+853;el padrino 853;Drama;6
+854;alien 854;Comedia;49
+855;Alien 855;Acción;8
+856;Avatar 856;Drama;35
+857;Inception 857;Drama;0
+858;Halloween 858;Terror;46
+859;Gladiador 859;Comedia;22
+860;Alien 860;Terror;14
+861;Avatar 861;Drama;28
+862;Gladiador 862;Comedia;-10
+863;El Padrino 863;Acción;25
+864;Matrix 864;Comedia;0
+865;Halloween 865;Documental;28
+866;El Padrino 866;Romance;7
+867;El Padrino 867;Romance;22
+868;el padrino 868;Comedia;2
+869;Titanic 869;Terror;3
+870;Halloween 870;Acción;13
+871;Halloween 871;Terror;-1
+872;Gladiador 872;Comedia;40
+873;Gladiador 873;Terror;-8
+874;Gladiador 874;Romance;35
+875;El Padrino 875;Drama;0
+876;Alien 876;Comedia;-4
+877;Halloween 877;Anime;9
+878;Avatar 878;Terror;-5
+879;Alien 879;Acción;19
+880;Halloween 880;Acción;1
+881;Gladiador 881;Acción;38
+882;Titanic 882;Sci-Fi;18
+883;Avatar 883;Terror;6
+884;El Padrino 884;Sci-Fi;12
+885;Avatar 885;Comedia;50
+886;Matrix 886;Terror;18
+887;Alien 887;Comedia;6
+888;Alien 888;Documental;1
+889;Halloween 889;Terror;1
+890;Avatar 890;Drama;4
+891;Inception 891;Drama;11
+892;Avatar 892;Drama;-10
+893;El Padrino 893;Documental;1
+894;Avatar 894;Comedia;9
+895;Halloween 895;Acción;48
+896;el padrino 896;Drama;19
+897;gladiador 897;Acción;49
+898;Titanic 898;Comedia;23
+899;Gladiador 899;Drama;7
+900;Inception 900;Acción;-6
+901;Alien 901;Comedia;-4
+902;El Padrino 902;Terror;-3
+903;Halloween 903;Comedia;5
+904;Gladiador 904;Romance;35
+905;Matrix 905;Acción;29
+906;Inception 906;Acción;1
+907;Gladiador 907;Acción;12
+908;Halloween 908;Drama;24
+909;Matrix 909;Acción;16
+910;Alien 910;Drama;-10
+911;Titanic 911;Acción;47
+912;El Padrino 912;Comedia;44
+913;Matrix 913;Acción;41
+914;titanic 914;Drama;29
+915;Inception 915;Terror;10
+916;Titanic 916;Acción;45
+917;Halloween 917;Drama;-8
+918;Alien 918;Drama;-1
+919;Halloween 919;Terror;44
+920;Matrix 920;Terror;41
+921;Matrix 921;Acción;-7
+922;Gladiador 922;Comedia;33
+923;Alien 923;Comedia;50
+924;Gladiador 924;Anime;13
+925;Matrix 925;Terror;18
+926;Titanic 926;Drama;7
+927;matrix 927;Acción;37
+928;Inception 928;Drama;-10
+929;Gladiador 929;Terror;31
+930;Titanic 930;Comedia;-3
+931;Avatar 931;Drama;47
+932;Halloween 932;Anime;11
+933;Inception 933;Acción;-9
+934;Halloween 934;Acción;27
+935;El Padrino 935;Comedia;1
+936;Alien 936;Drama;-5
+937;Titanic 937;Acción;25
+938;Alien 938;Acción;33
+939;Titanic 939;Anime;40
+940;Avatar 940;Comedia;-2
+941;Alien 941;Acción;11
+942;Inception 942;Terror;43
+943;Alien 943;Acción;42
+944;El Padrino 944;Drama;1
+945;inception 945;Comedia;35
+946;Halloween 946;Comedia;6
+947;Inception 947;Comedia;-3
+948;Titanic 948;Drama;23
+949;Gladiador 949;Drama;23
+950;el padrino 950;Acción;46
+951;El Padrino 951;Sci-Fi;30
+952;inception 952;Terror;12
+953;Titanic 953;Comedia;10
+954;Titanic 954;Terror;33
+955;matrix 955;Drama;30
+956;Alien 956;Sci-Fi;21
+957;Inception 957;Drama;1
+958;Alien 958;Documental;28
+959;Halloween 959;Comedia;44
+960;Titanic 960;Acción;23
+961;Titanic 961;Acción;38
+962;titanic 962;Comedia;9
+963;el padrino 963;Comedia;17
+964;Matrix 964;Documental;11
+965;Gladiador 965;Acción;28
+966;Titanic 966;Terror;35
+967;El Padrino 967;Terror;43
+968;Inception 968;Terror;41
+969;Matrix 969;Terror;41
+970;Matrix 970;Comedia;30
+971;Inception 971;Drama;-4
+972;El Padrino 972;Comedia;22
+973;Alien 973;Comedia;25
+974;Avatar 974;Drama;-9
+975;El Padrino 975;Romance;6
+976;Matrix 976;Acción;1
+977;inception 977;Drama;32
+978;Inception 978;Terror;38
+979;Halloween 979;Drama;49
+980;Alien 980;Acción;38
+981;El Padrino 981;Romance;33
+982;Matrix 982;Acción;49
+983;Inception 983;Terror;-3
+984;Halloween 984;Comedia;35
+985;Inception 985;Acción;30
+986;Halloween 986;Terror;-2
+987;Alien 987;Anime;6
+988;Inception 988;Sci-Fi;22
+989;Halloween 989;Drama;-8
+990;Avatar 990;Comedia;-9
+991;Inception 991;Acción;15
+992;Gladiador 992;Terror;47
+993;Inception 993;Sci-Fi;9
+994;El Padrino 994;Terror;-9
+995;Avatar 995;Terror;9
+996;Avatar 996;Terror;4
+997;Halloween 997;Drama;5
+998;Avatar 998;Romance;18
+999;el padrino 999;Acción;47
+1000;avatar 1000;Terror;48

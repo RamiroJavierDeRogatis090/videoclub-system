@@ -1,89 +1,12 @@
 #include "indice.h"
 #include "estructura.h"
-#include "validaciones.h"
+#include "tda.h"
 
-//toma memoria para 100 elementos e inicializa la estructura a índice vacío.
-void indice_crear(t_indice *indice, size_t nmemb, size_t tamanyo)
-{
-    indice->cap = nmemb;
-    indice->cant = 0;
-    indice->vindice = (void *)malloc(nmemb * tamanyo);
-    if(indice->vindice == NULL)
-    {
-        printf("No se pudo reservar memoria");
-        return;
-    }
-}
-
-//redimensiona el tamaño del indice.
-void indice_redimensionar(t_indice *indice, size_t nmemb, size_t tamanyo)
-{
-    size_t nuevoTotal = nmemb * INCREMENTO; //multiplica para darle mas de 30%
-    void *nuevos = (void *)realloc(indice->vindice, nuevoTotal * tamanyo); //redimensiono vector
-    if(!nuevos)
-        return;
-    indice->vindice = nuevos;
-    indice->cap = nuevoTotal;
-}
-
-//inserta en orden según la clave.
-int indice_insertar(t_indice *indice, const void *registro, size_t tamanyo, int (*cmp)(const void *, const void *))
-{
-    if(indice_lleno(indice))
-        indice_redimensionar(indice, indice->cap, tamanyo);
-
-    void *pos = indice->vindice;
-    size_t i = 0;
-    while(i < indice->cant && cmp(registro, pos) > 0)
-    {
-        pos = (char *)pos + tamanyo;
-        i ++;
-    }
-
-    memmove((char *)pos + tamanyo, pos, (indice->cant - i) * tamanyo);
-    memcpy(pos, registro, tamanyo);
-    indice->cant ++;
-
-    return OK;
-}
-
-//elimina el registro del indice.
-int indice_eliminar(t_indice *indice, const void *registro, size_t tamanyo, int (*cmp)(const void *, const void *))
-{
-    int pos = indice_buscar(indice, registro, indice->cant, tamanyo, cmp);
-
-    if(pos == NO_EXISTE)
-    {
-        printf("No se encontró el dni buscado");
-        return ERROR;
-    }
-
-    char *base = (char *)indice->vindice;
-    char *destino = base + pos * tamanyo;
-    if (pos < indice->cant - 1)
-        memmove(destino, destino + tamanyo, (indice->cant - pos - 1) * tamanyo);
-
-    indice->cant --;
-
-    return OK;
-}
-
-//indica se el índice está vacío.
-int indice_vacio(const t_indice* indice)
-{
-    return indice->cant == 0;
-}
-
-//indica si ya no se pueden añadir más registros.
-int indice_lleno(const t_indice *indice)
-{
-    return indice->cant == indice->cap;
-}
 
 //si la clave existe deja e registro en registro.
 int indice_buscar (const t_indice *indice, const void *registro, size_t nmemb, size_t tamanyo, int (*cmp)(const void *, const void *))
 {
-    int ini = 0, fin=indice->cant - 1, medio;
+    int ini = 0, fin=indice->cantidad_elementos_actual - 1, medio;
 
     while(ini <= fin)
     {
@@ -103,6 +26,87 @@ int indice_buscar (const t_indice *indice, const void *registro, size_t nmemb, s
     return NO_EXISTE;
 }
 
+
+int indice_insertar(t_indice *indice, const void *registro, size_t tamanyo,
+                    int (*cmp)(const void *, const void *))
+{
+    if(indice_lleno(indice))
+        indice_redimensionar(indice, indice->cantidad_elementos_maxima, tamanyo);
+
+    size_t i = 0;
+    while(i < indice->cantidad_elementos_actual &&
+            cmp(registro, (char*)indice->vindice + i * tamanyo) > 0)
+    {
+        i++;
+    }
+
+    void *pos = (char*)indice->vindice + i * tamanyo;
+
+    memmove((char*)pos + tamanyo, pos,
+            (indice->cantidad_elementos_actual - i) * tamanyo);
+
+    memcpy(pos, registro, tamanyo);
+    indice->cantidad_elementos_actual++;
+
+    return OK;
+}
+
+
+//compara los indices.
+int cmp_indice_p(const void *a, const void *b)
+{
+    const t_reg_indice_pelicula *ra = (const t_reg_indice_pelicula *)a;
+    const t_reg_indice_pelicula *rb = (const t_reg_indice_pelicula *)b;
+    if (ra->id_pelicula < rb->id_pelicula)
+        return -1;
+    if (ra->id_pelicula > rb->id_pelicula)
+        return 1;
+    return 0;
+}
+
+//indica se el ï¿½ndice estï¿½ vacï¿½o.
+int indice_vacio(const t_indice* indice)
+{
+    return indice->cantidad_elementos_actual == 0;
+}
+
+//indica si ya no se pueden aï¿½adir mï¿½s registros.
+int indice_lleno(const t_indice *indice)
+{
+    return indice->cantidad_elementos_actual == indice->cantidad_elementos_maxima;
+}
+
+
+void indice_redimensionar(t_indice *indice, size_t nmemb, size_t tamanyo)
+{
+    size_t nuevoTotal = nmemb * INCREMENTO; //multiplica para darle mas de 30%
+    void *nuevos = (void *)realloc(indice->vindice, nuevoTotal * tamanyo); //redimensiono vector
+    if(!nuevos)
+        return;
+    indice->vindice = nuevos;
+    indice->cantidad_elementos_maxima = nuevoTotal;
+}
+
+
+void indice_crear(t_indice *indice, size_t nmemb, size_t tamanyo)
+{
+    indice->cantidad_elementos_maxima = nmemb;
+    indice->cantidad_elementos_actual = 0;
+    indice->vindice = (void *)malloc(nmemb * tamanyo);
+    if(indice->vindice == NULL)
+    {
+        printf("No se pudo reservar memoria");
+        return;
+    }
+}
+
+void indice_vaciar(t_indice *indice)
+{
+    free(indice->vindice);
+}
+
+
+/// Compara los indice
 //compara los indices.
 int cmp_indice(const void *a, const void *b)
 {
@@ -115,59 +119,137 @@ int cmp_indice(const void *a, const void *b)
     return 0;
 }
 
-//libera la memoria utilizada por el índice.
-void indice_vaciar(t_indice *indice)
-{
-    free(indice->vindice);
-}
-
 //carga el array desde un archivo ordenado.
-int indice_cargar(const char *path, t_indice *indice, void *vreg_ind, size_t tamanyo, int (*cmp)(const void *, const void *))
+int indice_cargar(tda_vec * vec, t_indice *indice, void *vreg_ind, size_t tamanyo, int (*cmp)(const void *, const void *))
 {
-    FILE *arch = fopen(path, "rb");
-    if(!arch)
-        return ERROR;
-
+    Ssocio *inicio = (Ssocio*)vec->vec;
+    Ssocio *fin = inicio + vec->ce;
     t_reg_indice reg_ind, reg_ind_buscar;
     unsigned nro_reg = 0;
 
-    while (fread(vreg_ind, sizeof(Ssocio), 1, arch) == 1)
+    while (inicio<fin)
     {
-        Ssocio *reg = (Ssocio*) vreg_ind;
+        Ssocio *reg = inicio;
 
-        if (reg->estado == 'A')
+        if (reg->estado == 'A' || reg->estado == 'a')
         {
             reg_ind.dni = reg->dni;
             reg_ind.nro_reg = nro_reg;
             reg_ind_buscar.dni = reg->dni;
 
-            if (indice_buscar(indice, &reg_ind_buscar, indice->cant, tamanyo, cmp) == NO_EXISTE)
+            if (indice_buscar(indice, &reg_ind_buscar, indice->cantidad_elementos_actual, tamanyo, cmp) == NO_EXISTE)
                 indice_insertar(indice, &reg_ind, tamanyo, cmp);
         }
+        inicio++;
         nro_reg++;
     }
 
-    fclose(arch);
     return OK;
 }
 
-void ordenarIndice(void *vec, size_t nmemb, size_t tamanyo, int (*cmp)(const void *, const void *))
+
+int indice_cargar_AYN(tda_vec* vec, t_indice* indice, void* vreg_ind, size_t tamanyo, int (*cmp)(const void*, const void*))
 {
-    for(int i = 0; i < nmemb; i++)
-        for(int j = 0; j < nmemb - 1; j++)
-            if(cmp(vec + j * tamanyo,  vec + (j + 1) * tamanyo) > 0)
-                intercambiar(vec + j * tamanyo,  vec + (j + 1) * tamanyo, tamanyo);
+
+    Ssocio *inicio = (Ssocio*)vec->vec;
+    Ssocio *fin = inicio + vec->ce;
+
+    t_reg_indice_ayn reg_ind, reg_ind_buscar;
+    unsigned nro_reg = 0;
+    Ssocio *reg= inicio;
+
+    while (inicio < fin)
+    {
+        reg = inicio;
+
+        if (reg->estado == 'A' || reg->estado == 'a')
+        {
+            strcpy(reg_ind.nyp, reg->nyp);
+            reg_ind.nro_reg = nro_reg;
+
+            strcpy(reg_ind_buscar.nyp, reg->nyp);
+
+
+            if (indice_buscar(indice, &reg_ind_buscar, indice->cantidad_elementos_actual, tamanyo, cmp) == NO_EXISTE)
+            {
+                indice_insertar(indice, &reg_ind, tamanyo, cmp);
+            }
+        }
+        inicio++;
+        nro_reg++;
+    }
+
+    return OK;
 }
 
-void intercambiar(void *a, void *b, size_t tam)
+
+void indice_destruir(t_indice *indice)
 {
-    void *aux =malloc(tam);
-    if(!aux)
-        exit(1);
+    if(indice == NULL)
+        return;
 
-    memcpy(aux, a, tam);
-    memcpy(a, b, tam);
-    memcpy(b, aux, tam);
+    free(indice->vindice);
 
-    free(aux);
+    indice->vindice = NULL;
+    indice->cantidad_elementos_actual = 0;
+    indice->cantidad_elementos_maxima = 0;
+}
+
+
+////
+int indice_cargar_peliculas (tda_vec * vec, t_indice *indice, void *vreg_ind, size_t tamanyo, int (*cmp)(const void *, const void *))
+{
+    Spelicula *inicio = (Spelicula*)vec->vec;
+    Spelicula *fin = inicio + vec->ce;
+    t_reg_indice_pelicula reg_ind, reg_ind_buscar;
+    unsigned nro_reg = 0;
+
+    while (inicio<fin)
+    {
+        Spelicula *reg = inicio;
+
+        if (reg->estado == 'A' || reg->estado == 'a' )
+        {
+            reg_ind.id_pelicula = reg->idPelicula;
+            reg_ind.nro_reg = nro_reg;
+            reg_ind_buscar.id_pelicula = reg->idPelicula;
+
+            if (indice_buscar(indice, &reg_ind_buscar, indice->cantidad_elementos_actual, tamanyo, cmp) == NO_EXISTE)
+                indice_insertar(indice, &reg_ind, tamanyo, cmp);
+        }
+        nro_reg++;
+        inicio++;
+    }
+
+    return OK;
+}
+
+
+int indice_eliminar(t_indice *indice, const void *registro, size_t tamanyo, int (*cmp)(const void *, const void *))
+{
+    int pos = indice_buscar(indice, registro, indice->cantidad_elementos_actual, tamanyo, cmp);
+
+    if(pos == NO_EXISTE)
+    {
+        printf("No se encontro el dni buscado");
+        return ERROR;
+    }
+
+    char *base = (char *)indice->vindice;
+    char *destino = base + pos * tamanyo;
+    if (pos < indice->cantidad_elementos_actual - 1)
+        memmove(destino, destino + tamanyo, (indice->cantidad_elementos_actual - pos - 1) * tamanyo);
+
+    indice->cantidad_elementos_actual --;
+
+    return OK;
+}
+
+
+
+int cmp_indice_AYN (const void *a, const void *b)
+{
+    const t_reg_indice_ayn *ra = (const  t_reg_indice_ayn *)a;
+    const t_reg_indice_ayn *rb = (const t_reg_indice_ayn *)b;
+    return strcmp (ra->nyp,rb->nyp);
 }
