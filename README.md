@@ -12,8 +12,6 @@ Todo arranca desde el menú principal, desde donde se maneja el sistema:
 
 ![Menú de gestión](menudegestion.png)
 
-> 💡 Guardá la captura del menú en `imagenes/menu-de-gestion.png` (o cambiá la ruta de arriba por la que uses).
-
 ## 🧩 ¿Qué hay en el proyecto?
 
 | Archivo | Para qué sirve |
